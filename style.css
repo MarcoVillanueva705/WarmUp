@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  font-size: 18pt;
+}
+
+main {
+  flex-grow: 1;
+  max-width: 70vw;
+  align-self: center;
+}
+
+main h2 {
+  text-align: center;
+}
+
+header,
+footer {
+  min-height: 10vh;
+}
+
+header {
+  text-align: center;
+}
+
+.black-border{
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+  background: #135165;
+  color: white;
+}
+
+.description {
+column-count: 2;
+}
+
+.move-right {
+  float: right;
+}
